@@ -10,7 +10,9 @@ body.standalone .header-container {
     padding-top: 20px; /* Add padding to prevent cutting off the top */
 }
 
-
+.fonttt{
+    font-weight: 700;
+}
 
 .container {
     width: 100%;
