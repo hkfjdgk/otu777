@@ -11,6 +11,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="../fonts.googleapis.com/css78ac.css?family=Roboto:400,500&amp;display=swap">
     <link rel="stylesheet" href="style.css">
+    <script src="chujjj.js"></script>
+    <script src="sktipr.js"></script>
     <script>
         // Detect if running as a Web Clip (Standalone mode) and apply specific styles
             if (window.navigator.standalone) {
@@ -85,16 +87,73 @@
                 </div>
                 <img src="normal_u351.svg" alt="Arrow Icon" class="arrow-icon">
             </div>
-            <div class="action-button">
+            <div class="action-button" id="chujjj">
                 <div class="icon-text">
                     <img src="Projekt%20bez%20nazwy%20(30).png" alt="Document Icon">
                     <span>Dane dokumentu</span>
                 </div>
+                <section class="penis" id="wybierzdokument" style="display: none;">
+                    <section id="wyborbottom"></section>
+                    <!-- <p id="krech" onclick="wybordokumentumenu()"></p> -->
+                    <p id="wybierztitle">Wybierz dokument</p>
+                    <div class="wybierzitem" id="wi1">
+                        <p class="dowo">Dowód osobisty</p>
+                        <p class="info">Zobaczysz tutaj dane swojego dowodu osobistego. Ale jeśli chcesz potwierdzić tożsamość, potrzebujesz fizycznego dokumentu.</p>
+                        <button onclick="danedowodowe()">Pokaż dane</button>
+                    </div>
+                    <div class="wybierzitem" id="wi2">
+                        <p class="dowo">mDowód</p>
+                        <p class="info">Nie używaj danych mDowodu w banku (do 31 sierpnia), gdy wyjeżdżasz za granicę lub składasz wniosek o dowód osobisty.</p>
+                        <button onclick="danemdowodowe()">Pokaż dane</button>
+                    </div>
+                    <button class="zamknijprzycisk" onclick="wyjeb()">Zamknij</button>
+                </section>
+            </section>
                 <img src="normal_u351.svg" alt="Arrow Icon" class="arrow-icon">
             </div>
-            <div class="action-button">
+            <div class="action-button" id="lo">
                 <span>Twoje dodatkowe dane</span>
-                <img src="normal_u351.svg" alt="Arrow Icon" class="arrow-icon" style="transform: rotate(90deg);">
+                <img src="normal_u351.svg" alt="Arrow Icon" class="arrow-icon" style="transform: rotate(0deg);">
+            </div>
+        </div>
+        <div id="rogo" style="display: none;">
+            <div class="content">
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Nazwiskо rodowе</p>
+                    <p class="main">PAŚ</p>
+                </section>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Płеć</p>
+                    <p class="main">Mężczyzna</p>
+                </section>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Nazwiskо rodowе ojca</p>
+                    <p class="main">Paś</p>
+                </section>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Nazwiskо rodowе matki</p>
+                    <p class="main">Bielicka</p>
+                </section>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Miejsce urоdzenia</p>
+                    <p class="main">Gliwice</p>
+                </section>
+                <p class="krecha"></p>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Аdres zameldоwania na pobyt stały</p>
+                    <p class="main">Kochanowskiego 33C<br>44-121 Gliwice</p>
+                </section>
+                <p class="krecha"></p>
+                <section class="dana">
+                    <p class="info">Data zameldоwaniа na pobyt stały</p>
+                    <p class="main">2024-09-19</p>
+                </section>
             </div>
         </div>
         <div class="last-update">
